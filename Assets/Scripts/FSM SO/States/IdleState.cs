@@ -15,7 +15,7 @@ public class IdleState : StateSO
 
     public override void OnStateUpdate(EnemyAI ec)
     {
-        Debug.Log("Here chillin");
+        
         ec.GetComponent<PatrollIDLE>().Patrol();
     }
 }
